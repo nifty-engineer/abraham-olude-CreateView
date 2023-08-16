@@ -46,10 +46,6 @@ import java.sql.Statement;
  * This is beneficial because we can now execute SQL queries on this view instead of the entire table.
  * For example if I wanted to get the average ages of all the steves, I can do that with this new view and the aggregate function AVG() like so:
  * SELECT AVG(age) from stevesview;
- *
- *
- * Additional reference material if needed: https://www.w3schools.com/sql/sql_view.asp
- *
  */
 public class CreateAView {
     /**
